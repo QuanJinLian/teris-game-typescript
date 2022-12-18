@@ -26,7 +26,7 @@ export class SquarePageViewer implements IViewer {
           position: "absolute",
           width: PageConfig.SquareSize.width,
           height: PageConfig.SquareSize.height,
-          border: "1px soild #ccc",
+          border: "1px solid #ccc",
           boxSizing: "border-box",
         })
         .appendTo(this.container);
